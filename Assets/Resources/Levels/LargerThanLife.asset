@@ -1,0 +1,338 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2aca6d6698231a40b6ee7a312416357, type: 3}
+  m_Name: LargerThanLife
+  m_EditorClassIdentifier: 
+  levelID: 23
+  startingCash: 40
+  startingLives: 25
+  pathPoints:
+  - x: -20
+    y: -20
+  - x: -20
+    y: 20
+  - x: 20
+    y: 20
+  - x: 20
+    y: 16
+  - x: -16
+    y: 16
+  - x: -16
+    y: -20
+  - x: 20
+    y: -20
+  - x: 20
+    y: 12
+  - x: -12
+    y: 12
+  - x: -12
+    y: -16
+  - x: 16
+    y: -16
+  - x: 16
+    y: 8
+  - x: -8
+    y: 8
+  - x: -8
+    y: -12
+  - x: 12
+    y: -12
+  - x: 12
+    y: 4
+  - x: -4
+    y: 4
+  - x: -4
+    y: -8
+  - x: 8
+    y: -8
+  - x: 8
+    y: 0
+  - x: 0
+    y: 0
+  - x: 0
+    y: -4
+  - x: 4
+    y: -4
+  towerBasePoints:
+  - x: -18
+    y: 18
+  - x: 18
+    y: 18
+  - x: -14
+    y: -18
+  - x: 18
+    y: -18
+  - x: 0
+    y: 14
+  - x: -10
+    y: 0
+  - x: 0
+    y: -14
+  - x: 14
+    y: 0
+  - x: 6
+    y: 6
+  - x: -2
+    y: -2
+  waves:
+  - subWaves:
+    - enemyPrefab: {fileID: 9120095896465029197, guid: a4fb6dd08491cef4695840246822cf08,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    waveReward: 5
+    difficultyMultiplier: 0
+  - subWaves:
+    - enemyPrefab: {fileID: 9120095896465029197, guid: a4fb6dd08491cef4695840246822cf08,
+        type: 3}
+      delayTilNextSubWave: 10
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 1061014558167092478, guid: 0bf1af885f9623b44805263f4a1e72d2,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    waveReward: 5
+    difficultyMultiplier: 1
+  - subWaves:
+    - enemyPrefab: {fileID: 9120095896465029197, guid: a4fb6dd08491cef4695840246822cf08,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 1061014558167092478, guid: 0bf1af885f9623b44805263f4a1e72d2,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 4496937359382043659, guid: a655f8a21dac3f5489349f7dea863bd1,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    waveReward: 5
+    difficultyMultiplier: 2
+  - subWaves:
+    - enemyPrefab: {fileID: 9120095896465029197, guid: a4fb6dd08491cef4695840246822cf08,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 1061014558167092478, guid: 0bf1af885f9623b44805263f4a1e72d2,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 4496937359382043659, guid: a655f8a21dac3f5489349f7dea863bd1,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 7129536993562470897, guid: 48ca61e15ee8c0140821336034ddaf68,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    waveReward: 5
+    difficultyMultiplier: 3
+  - subWaves:
+    - enemyPrefab: {fileID: 9120095896465029197, guid: a4fb6dd08491cef4695840246822cf08,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 1061014558167092478, guid: 0bf1af885f9623b44805263f4a1e72d2,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 4496937359382043659, guid: a655f8a21dac3f5489349f7dea863bd1,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 7129536993562470897, guid: 48ca61e15ee8c0140821336034ddaf68,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 2468635271628065749, guid: a519469b3d26a834d8f4e2094e6e4299,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    waveReward: 5
+    difficultyMultiplier: 4
+  - subWaves:
+    - enemyPrefab: {fileID: 9120095896465029197, guid: a4fb6dd08491cef4695840246822cf08,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 1061014558167092478, guid: 0bf1af885f9623b44805263f4a1e72d2,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 4496937359382043659, guid: a655f8a21dac3f5489349f7dea863bd1,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 7129536993562470897, guid: 48ca61e15ee8c0140821336034ddaf68,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 2468635271628065749, guid: a519469b3d26a834d8f4e2094e6e4299,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 664592541608849066, guid: 118d8b0ff435c53428f1682ae3994f70,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    waveReward: 5
+    difficultyMultiplier: 5
+  - subWaves:
+    - enemyPrefab: {fileID: 9120095896465029197, guid: a4fb6dd08491cef4695840246822cf08,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 1061014558167092478, guid: 0bf1af885f9623b44805263f4a1e72d2,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 4496937359382043659, guid: a655f8a21dac3f5489349f7dea863bd1,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 7129536993562470897, guid: 48ca61e15ee8c0140821336034ddaf68,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 2468635271628065749, guid: a519469b3d26a834d8f4e2094e6e4299,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 664592541608849066, guid: 118d8b0ff435c53428f1682ae3994f70,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 6506065120936075390, guid: 492e4f33dccc31540854093607f1686a,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    waveReward: 5
+    difficultyMultiplier: 6
+  - subWaves:
+    - enemyPrefab: {fileID: 9120095896465029197, guid: a4fb6dd08491cef4695840246822cf08,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 664592541608849066, guid: 118d8b0ff435c53428f1682ae3994f70,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 1061014558167092478, guid: 0bf1af885f9623b44805263f4a1e72d2,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 4496937359382043659, guid: a655f8a21dac3f5489349f7dea863bd1,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 7129536993562470897, guid: 48ca61e15ee8c0140821336034ddaf68,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 2468635271628065749, guid: a519469b3d26a834d8f4e2094e6e4299,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 664592541608849066, guid: 118d8b0ff435c53428f1682ae3994f70,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 6506065120936075390, guid: 492e4f33dccc31540854093607f1686a,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    waveReward: 5
+    difficultyMultiplier: 7
+  - subWaves:
+    - enemyPrefab: {fileID: 6506065120936075390, guid: 492e4f33dccc31540854093607f1686a,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 9120095896465029197, guid: a4fb6dd08491cef4695840246822cf08,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 6506065120936075390, guid: 492e4f33dccc31540854093607f1686a,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 2468635271628065749, guid: a519469b3d26a834d8f4e2094e6e4299,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 6506065120936075390, guid: 492e4f33dccc31540854093607f1686a,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 2468635271628065749, guid: a519469b3d26a834d8f4e2094e6e4299,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 1061014558167092478, guid: 0bf1af885f9623b44805263f4a1e72d2,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 1061014558167092478, guid: 0bf1af885f9623b44805263f4a1e72d2,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    - enemyPrefab: {fileID: 6506065120936075390, guid: 492e4f33dccc31540854093607f1686a,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 1
+      numberOfEnemies: 25
+    waveReward: 5
+    difficultyMultiplier: 8

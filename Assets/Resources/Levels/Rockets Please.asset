@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2aca6d6698231a40b6ee7a312416357, type: 3}
+  m_Name: Rockets Please
+  m_EditorClassIdentifier: 
+  levelID: 20
+  startingCash: 50
+  startingLives: 25
+  pathPoints:
+  - x: 0
+    y: 8
+  - x: 50
+    y: 8
+  - x: 50
+    y: 0
+  - x: 0
+    y: 0
+  towerBasePoints:
+  - x: 5
+    y: 4
+  - x: 15
+    y: 4
+  - x: 25
+    y: 4
+  - x: 35
+    y: 4
+  - x: 45
+    y: 4
+  waves:
+  - subWaves:
+    - enemyPrefab: {fileID: 7129536993562470897, guid: 48ca61e15ee8c0140821336034ddaf68,
+        type: 3}
+      delayTilNextSubWave: 0
+      spawnInterval: 0.5
+      numberOfEnemies: 1000
+    waveReward: 50
+    difficultyMultiplier: 1
