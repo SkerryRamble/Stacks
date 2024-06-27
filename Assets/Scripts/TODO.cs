@@ -7,6 +7,9 @@ public class TODO : MonoBehaviour
     /*
      * Cheap way to store general ideas and TODOs
      * 
+     * 062024
+     * Do a general tidy up of unneeded files, strip out gumpf and random test scripts.
+     * 
      * TODO: make a bunch of generic endless waves as SOs and inject them into levels after normal waves are done
      * This will open up the idea of big earnings so need to think about balanced costs of upgrades etc
      * 
